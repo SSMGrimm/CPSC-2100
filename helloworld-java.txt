@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class HelloWorld
+{
+	public static void main(String[] args)
+	{
+		System.out.println("Hello, world!");
+		System.out.print("Enter an integer: ");
+		int x = in.nextInt();
+		
+		if(x%2 == 0)
+		{
+			System.out.println("Even");
+		}
+		else
+		{
+			System.out.println("Odd");
+		}
+		System.out.println("Done with conditional check");
+	}
+}
