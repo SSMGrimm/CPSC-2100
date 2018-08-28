@@ -1,5 +1,11 @@
 print("Hello world!")
 
-x = input(x, "Enter an integer: ")
+x = int(input("Enter an integer: ")
 
-print("10 - x = ", 10 - x)
+if x%2 == 0:
+        print("")
+        print("Even")
+else:
+        print("")
+        print("Odd")
+print("Done with conditional check")
